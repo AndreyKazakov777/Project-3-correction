@@ -12,11 +12,12 @@ body, html {
     min-width: 100%;
     font-family: 'Yeseva One', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .container {
     max-width: 1171px;
+    max-height: 552px;
     margin: 0 auto;
 }
 
@@ -28,13 +29,20 @@ body, html {
 
 .slider-description {
     color: #E3B873;
-    padding-top: 30px;
+    padding-top: 69px;
+}
+
+.slider-description-completed {
+    width: 442px;
+    height: 390px;
 }
 
 .slider-description-completed-title h2 {
     font-size: 27px;
     text-transform: uppercase;
     line-height: 37px;
+    margin-top: 0;
+    font-weight: 300;
 }
 
 .slider-description-completed-title hr {
@@ -67,7 +75,9 @@ body, html {
 .slider-description-completed-about h3 {
     text-transform: uppercase;
     font-size: 18px;
-    line-height: 25px;
+    line-height: 22px;
+    margin: 14px 0;
+    font-weight: 300;
 }
 
 .slider-description-completed-about .no-active {
@@ -86,7 +96,6 @@ body, html {
 .about-project span {
     font-family: 'Nunito Sans', sans-serif;
     font-style: normal;
-    font-weight: 400;
     font-size: 13px;
     line-height: 12px;
     color: #FFFFFF;
@@ -98,8 +107,7 @@ body, html {
 
 .slider-navigation-buttons {
     display: flex;
-    margin-top: 95px;
-    margin-bottom: 120px;
+    margin-top: 75px;
 }
 
 .slider-navigation-buttons img {
@@ -131,12 +139,13 @@ body, html {
 
 .url-project-nav {
     display: flex;
+    padding-bottom: 45px;
+    height: 24px;
 }
 
 .url-project {
     font-family: 'Yeseva One';
     font-style: normal;
-    font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     text-transform: uppercase;
