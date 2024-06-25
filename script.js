@@ -22,7 +22,7 @@ function initSlider() {
     if (!imagesData || !imagesData.length) return;
 
     let mediaDiv = document.querySelector(".slider-media");
-    let sliderImg = mediaDiv.querySelector(".slider-imgs");
+    let sliderImg = document.querySelector(".slider-imgs");
     let navDiv = document.querySelector(".slider-navigation-buttons");
     let aboutProject = document.querySelector(".slider-description-completed-about");
     let containerSlider = document.querySelector(".container-slider");
