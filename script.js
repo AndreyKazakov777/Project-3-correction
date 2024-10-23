@@ -34,8 +34,8 @@ function initSlider() {
 
     function initImages() {
         images.forEach((imgData, index) => {
-            let active = "";
-            if (index === 0) active = "active";
+            let active = ''; 
+            if (index === 0) active = 'active';
             let imgTag = `<img src="${images[index].url}" data-index="${index}" class="img-slider ${active}" alt="${images[index].city} ${images[index].cityApart}">`;
             sliderImg.innerHTML += imgTag;
 
